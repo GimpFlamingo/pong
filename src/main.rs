@@ -1,4 +1,4 @@
-mod pong;//! Pong Tutorial 1
+mod pong;
 use crate::pong::Pong;
 
 use amethyst::{
