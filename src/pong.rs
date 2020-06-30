@@ -23,8 +23,6 @@ impl SimpleState for Pong {
 		// `texture` is the pixel data.
 		let sprite_sheet_handle = load_sprite_sheet(world);
 
-		world.register::<Paddle>();
-
 		initialise_paddles(world, sprite_sheet_handle);
 		initialise_camera(world);
 	}
